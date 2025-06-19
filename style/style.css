@@ -1,0 +1,261 @@
+/* classes */
+:root{
+    --main-color:rgba(255, 83, 178, 0.897)
+}
+.blue{
+    color: blue !important;}
+
+    .blue-pink{
+        color: blue 
+    }
+    .blue-pink:hover{
+        color: var(--main-color) !important;
+        transition: all ease 1s;
+        cursor: pointer;
+    }
+    .pink{
+       color: rgb(233, 69, 124) !important;
+    }
+
+    .header-border{
+        border-bottom: 3px solid var(--main-color);
+        font-size:40px;
+        padding-bottom: 10px;
+        margin-bottom: 3rem;
+        font-weight: bolder;
+        display: inline-block !important;
+        justify-content: center;
+    }
+/* classes end */
+
+
+
+
+
+
+    /* navbar */
+
+.navbar{
+    background-color: var(--main-color) !important;
+}
+
+
+
+
+
+
+
+
+/* curousel */
+.top .carousel-item{
+    height: 100vh;
+}
+.my-icon{
+    color: black;
+    font-size: 40px;
+}
+ .top .carousel-caption{
+    background-color: var(--main-color) !important;
+    border-radius:20px ;
+   margin-bottom: 8rem; 
+   padding: 20px;
+}
+ .top .carousel-caption:hover{
+    background-color: var(--main-color) !important;
+    transition: all ease .7s;
+}
+
+ .btn-dark:hover{
+    background-color: crimson !important;
+    transition: all ease .7s;
+    border-radius: 20px;
+}
+.carousel-indicators button{
+    width: 20px  !important;
+    height: 20px !important;
+border-radius: 50% !important;
+background-color: black !important;
+
+}
+
+.carousel-indicators button:hover{
+   background-color:var(--main-color) !important;
+   transition: all ease .7s;
+
+}
+
+.top .carousel-caption h2{
+    font-size:45px ;
+margin-bottom: 30px;
+}
+.top .carousel-caption p{
+    font-size:20px ;
+
+}
+
+/* curousel end */
+
+
+
+
+
+
+
+
+
+
+
+
+ /* section 1 */
+
+.btn-primary:hover{ 
+    background-color: var(--main-color) !important;
+    border: none !important;
+    transition: all ease .1s;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    height: 300px ;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 2 */
+.contact{
+    background: url(../images/istockphoto-695474326-400x400.webp);
+    height:60vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .input-section2{
+    border-radius: 0px !important;
+   
+ }
+ .contact .btn{
+    border-radius: 20px 0 0 20px !important;
+    width: 150px !important;
+ }
+ /* section 3 */
+ .form-control:hover{
+    border-color: rgb(16, 16, 247);
+ }
+.section3  button:hover{
+    border: solid 1px rgb(62, 62, 236);
+    border-radius: 50px !important ;
+}
+.section3  button{
+    height: 40px;
+}
+
+/* section 4 */
+.section4 p{
+    
+        color:blue !important;
+        font-weight:bold !important;
+        font-size: large;
+
+
+}
+
+
+.section4 img:hover{
+    transform: rotate(5deg) scale(1.1) ;
+    transition: ease all .1s ;
+}
+
+
+
+
+
+
+
+
+/* contracr */
+.accordion-button::after{
+    display: none;
+  
+ 
+}
+
+
+.accordion-button{
+    display: flex;
+    justify-content: center;
+    color: aliceblue !important;
+    font-size: large;
+}
+/* .contract .refund{
+    border-radius: solid 2xp black !important ;
+
+} */
+
+.section4 .container div{
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer {
+    background-color:rgb(51, 51, 243);
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* canva */
+.imgcanva{
+    width:250px !important;
+    height:300px !important ;
+}
+.imgcanva:hover{
+    transform: skew(-5deg);
+    transition: all ease .1s;
+}
+ .offcanvas-body p{
+    font-size: larger !important;
+    padding-top: 5px !important;
+    font-weight: bolder;
+
+
+
+ }
+  .price{
+    color: var(--main-color) !important;
+    font-weight: bolder;
+    font-size: larger;
+ }
+
+
+
+/* cnvaend */
